@@ -1,0 +1,177 @@
+@font-face{
+    font-family: "sans";
+    src: url(./font/OpenSans-Bold.ttf);
+}
+
+@font-face{
+    font-family: "lobster";
+    src: url(./font/Lobster-Regular.ttf);
+}
+
+@font-face{
+    font-family: "comic";
+    src: url(./font/ComicNeue-Regular.ttf);
+}
+
+:root{
+    --black: #252525;
+    --green: rgb(134, 241, 46);
+    --pink: rgb(243, 11, 88);
+    --red: red;
+    --yellow: yellow;
+    --violet: indigo;
+
+}
+
+body{
+    background-image: url("./img/hearts.png");
+    /*height: 9000px;*/
+    margin: 0;
+   /* overflow-x: hidden;*/
+}
+
+.hmd{
+    width: 17%;
+    position: fixed;
+    top: 50%;
+    left: 2%;
+    transform: translateY(-50%);
+}
+
+.heart{
+    position: fixed;
+    bottom: 1%;
+    right: 1%;
+    width: 40%;
+}
+
+.line{
+    font-size: 100px;
+    color: var(--violet);
+    font-family: "lobster";
+    font-weight: bold;
+    position: sticky;
+    top:0;
+    z-index: 3;
+    background-color: lightslategray;
+}
+
+.love{
+    margin-left:20%;
+    margin-top: 6%; 
+       
+}
+
+.you{
+    margin-left:35%;
+    margin-top: 6%;    
+}
+
+.amma{
+    margin-left:50%;
+    margin-top: 6%;    
+}
+
+.cursor{
+    font-size: 20px;
+    color: red;
+    font-family: "sans";
+    margin-left: 25%;
+    margin-top: 5%;
+}
+
+.peacecard{
+    padding-bottom: 35%;
+    cursor: pointer;
+    margin-left: 20%;
+    margin-top: 10%;
+}
+
+.peacecard:hover .peacet{
+    color: black;
+    background-color:greenyellow;
+    transition: all 0.3s ease-in-out;
+}
+
+.peace{
+    width: 30%;
+    height: auto;
+    border:  5px solid black;
+    padding: 3%;
+    position: absolute;
+    background-color: white;
+}
+
+.peace:hover{
+    transition:all .3s ease-in-out;
+    box-shadow: 10px 10px 10px rgba(22, 21, 21, 0.4);
+}
+
+.peacet{
+    font-family: "lobster";
+    font-size: 30px;
+    color: transparent;
+    position: absolute;
+    left:60%;
+    right: 1%;
+    margin-top:10%;
+}
+
+.text1{
+    font-family: "sans";
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 40%;
+    margin-left: 20% ;
+    
+}
+
+.text2{
+    font-family: "comic";
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 3%;
+    margin-left: 20% ;
+    margin-right: 50%;
+    background-color: var(--yellow);
+    padding: 1%;
+    border:  5px solid var(--green);
+    border-radius: 35px 0px 0 0;
+    box-shadow: 15px 15px 15px var(--black);
+}
+
+.text3{
+    font-family: "comic";
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 3%;
+    margin-left: 30% ;
+    margin-right: 40%;
+    background-color: var(--yellow);
+    padding: 1%;
+    border:  5px solid var(--green);
+    border-radius:35px 35px ;
+    box-shadow: 15px 15px 15px var(--black);
+}
+
+.text4{
+    font-family: "comic";
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 3%;
+    margin-left: 40% ;
+    margin-right: 30%;
+    background-color: var(--yellow);
+    padding: 1%;
+    border:  5px solid var(--green);
+    border-radius: 0 0 35px 0;
+    box-shadow: 15px 15px 15px var(--black);
+}
+
+.end{
+    display: block;
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}

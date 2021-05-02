@@ -1,0 +1,215 @@
+@media screen and (max-width: 672px){
+    .card .text{
+        font-size: 65px;
+    }
+}
+
+
+@media screen and (max-width: 1126px){
+    .bestmom{
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 905px){
+    .bestmom{
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 681px){
+    .bestmom{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 865px){
+    .wish{
+        font-size: 70px;
+    }
+
+    .happy::first-letter{
+        font-size: 120px;
+    }
+
+    .mothers::first-letter{
+        font-size: 120px;
+    }
+
+    .day::first-letter{
+        font-size: 120px;
+    }
+
+    .link{
+        font-size: 15px;
+    }
+
+    .card .text{
+        font-size: 60px;
+    }
+}
+
+@media screen and (max-width: 776px){
+    .wish{
+        font-size: 60px;
+    }
+
+    .happy::first-letter{
+        font-size: 90px;
+    }
+
+    .mothers::first-letter{
+        font-size: 90px;
+    }
+
+    .day::first-letter{
+        font-size: 90px;
+    }
+
+    .link{
+        font-size: 10px;
+    }
+
+    .card .text{
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 681px){
+    .wish{
+        font-size: 30px;
+    }
+
+    .happy::first-letter{
+        font-size: 45px;
+    }
+
+    .mothers::first-letter{
+        font-size: 45px;
+    }
+
+    .day::first-letter{
+        font-size: 45px;
+    }
+
+    .card .text{
+        font-size: 30px;
+    }
+
+}
+
+@media screen and (max-width: 1180px){
+    .line{
+        font-size: 90px;
+    }
+}
+
+@media screen and (max-width: 1070px){
+    .line{
+        font-size: 80px;
+    }
+}
+
+@media screen and (max-width: 960px){
+    .line{
+        font-size: 70px;
+    }
+}
+
+@media screen and (max-width: 830px){
+    .line{
+        font-size: 60px;
+    }
+}
+
+@media screen and (max-width: 720px){
+    .line{
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .line{
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 550px){
+    .line{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 1080px){
+    .cursor{
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width: 940px){
+    .cursor{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 820px){
+    .cursor{
+        font-size: 11px;
+    }
+}
+
+
+@media screen and (max-width: 1080px){
+    .peacet{
+        font-size: 25px;
+    }
+    .text1{
+        font-size: 25px;
+    }
+    .text2{
+        font-size: 25px;
+    }
+    .text3{
+        font-size: 25px;
+    }
+    .text4{
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .peacet{
+        font-size: 20px;
+    }
+    .text1{
+        font-size: 20px;
+    }
+    .text2{
+        font-size: 20px;
+    }
+    .text3{
+        font-size: 20px;
+    }
+    .text4{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 505px){
+    .peacet{
+        font-size: 15px;
+    }
+    .text1{
+        font-size: 15px;
+    }
+    .text2{
+        font-size: 15px;
+    }
+    .text3{
+        font-size: 15px;
+    }
+    .text4{
+        font-size: 15px;
+    }
+}
+

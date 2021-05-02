@@ -1,0 +1,127 @@
+@font-face{
+    font-family: "sans";
+    src: url(./font/OpenSans-Bold.ttf);
+}
+
+@font-face{
+    font-family: "lobster";
+    src: url(./font/Lobster-Regular.ttf);
+}
+
+@font-face{
+    font-family: "comic";
+    src: url(./font/ComicNeue-Regular.ttf);
+}
+
+:root{
+    --black: #252525;
+    --green: rgb(134, 241, 46);
+    --pink: rgb(243, 11, 88);
+    --red: red;
+    --yellow: yellow;
+
+}
+
+body{
+    margin: 0;
+    background-color: var(--black);
+    color: #fff;
+    /*overflow: hidden;*/ 
+}
+
+.card{
+    position: absolute;
+    left: 2%;
+    top: 2%;
+    width: 15%;
+}
+
+
+
+.text{
+    display: block;
+    font-size: 85px;
+    opacity: 0.2;
+    font-weight: bold;
+    font-family: arial;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    
+    
+}
+
+
+.mom{
+    position: absolute;
+    width: 28%;
+    margin-left: 72%;
+    
+   
+    
+}
+
+
+.bestmom{
+    font-size: 50px;
+    margin-left:23%;
+    margin-top: 2%;
+    color: var(--yellow);
+    font-family: "sans";
+    opacity: 0.7;
+}
+
+.wish{
+    font-family: "Lobster";
+    font-size: 90px;
+    color: var(--green);
+    margin-top: 3%;
+    padding-left: 23%;
+    line-height: 130%;
+    margin-bottom: 3%;
+}
+.happy::first-letter{
+    font-size: 150px;
+}
+
+.mothers{
+    padding-left: 15%;
+}
+
+.mothers::first-letter{
+    font-size: 150px;
+}
+
+.day{
+    padding-left: 38%;
+}
+
+.day::first-letter{
+    font-size: 150px;
+}
+
+.link{
+    font-size: 20px;
+    font-family: "comic";
+    font-weight: bold;
+    padding:5px 30px 5px 30px;
+    text-align: center;
+    border-radius: 15px;
+    background-color: transparent;
+    border: 2px solid var(--yellow);
+    color: var(--yellow);
+    cursor: pointer;
+    text-decoration: none;
+    margin-left: 38%;
+}
+
+.link:hover{
+    border: 2px solid white;
+    color: #fff;
+    box-shadow: 0 5px 10px rgba(153, 149, 149, 0.4);
+    transition: all .3s ease-in-out;
+}
+
+
